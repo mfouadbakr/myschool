@@ -1,0 +1,4 @@
+
+        
+        <!--Where controls generated appear-->
+      <div><h6 class="my-2">name</h6><div><input type="text" class="form-control w-100" placeholder="Textbox"></div><button class="btn btn-sm btn-color-2 mt-2 btn-delete">X Remove control</button></div><div><h6 class="my-2">policy</h6><pre>asddasfas</pre><button class="btn btn-sm btn-color-2 mt-2 btn-delete">X Remove control</button></div><div><h6 class="my-2">Gender</h6><select class="form-control form-control-sm mb-1"><option>male</option><option>female</option></select><button class="btn btn-sm btn-color-2 mt-2 btn-delete">X Remove control</button></div>
