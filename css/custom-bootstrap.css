@@ -1,0 +1,38 @@
+/*When updating on bootstrap dont do it directly to be able to do further updating when needed*/
+.custom-container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*Hide dropdown icon on the right*/
+.dropdown-toggle::after {
+    display: none;
+}
+
+.custom-indicator li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    /* You can change color of slider indicator here too*/
+}
+
+/*Hide indicator on phone size screen*/
+@media (max-width: 576px) {  
+    .carousel-indicators li { 
+        visibility: hidden; 
+    }
+}
+
+
+/*Replace fff after %23 in fill with color desired in hex code*/
+.custom-control-left {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.custom-control-right{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.custom-control-size{
+    width:25px;
+}

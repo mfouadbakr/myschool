@@ -1,0 +1,42 @@
+.cover-home{
+    background-image: url("../images/cover.jpg");
+    height: 400px;
+
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.cover-banner{
+    background-image: url("../images/banner.png");
+    height: 400px;
+
+    background-position: center;
+}
+
+a{
+    border-radius: 0 !important;
+}
+
+/*Hide register a school button on small screens*/
+@media (max-width: 575px){
+    #btn-register-school{
+        display:none;
+    }
+}
+
+.text-custom{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cover-students{
+    background-image: url("../images/cover.jpg");
+
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
